@@ -1,2 +1,6 @@
 # Sudoku-Solver
-Efficient C-based Sudoku Solver using `Square` and `Box` structures for cell management. Employs backtracking and heuristic algorithms to optimize solving speed. Features an interactive `ncurses` interface, allowing dynamic user interaction. Ideal for both solving and aiding Sudoku puzzles.
+This C-based Sudoku Solver efficiently tackles the popular puzzle using sophisticated data structures and algorithms. Core components include Square and Box structures for managing individual cells and 3x3 grid sections, defined in sudoku.h. The solver incorporates backtracking and heuristic techniques within solve.c to fill in the grid swiftly, minimizing unnecessary computations.
+
+Utility functions in square.c and box.c maintain the integrity of each square and box. The program leverages the ncurses library for an interactive terminal interface, allowing users to dynamically interact with the Sudoku grid. This makes the solver not only a powerful computational tool but also an engaging application for Sudoku enthusiasts.
+
+
